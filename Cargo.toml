@@ -1,0 +1,7 @@
+[package]
+name = "rustcalllean"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+lean-sys = "0.0.7"
