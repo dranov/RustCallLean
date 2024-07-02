@@ -1,8 +1,8 @@
 import Lake
 open System Lake DSL
 
-package rffi
+package callee
 
 @[default_target]
-lean_lib RFFI where
+lean_lib Callee where
   defaultFacets := #[LeanLib.sharedFacet]

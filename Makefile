@@ -1,9 +1,11 @@
-.PHONY: build clean
+.PHONY: build run clean
 
-build: lib/RFFI.lean
+build: lib/Callee.lean
 	@echo "Building..."
-	cd lib && lake build
 	cargo build
+
+run:
+	cargo run
 
 clean:
 	@echo "Cleaning..."
